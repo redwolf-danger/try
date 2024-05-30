@@ -7,7 +7,7 @@
     <title>Document</title>
 </head>
 
-<button>click me to get ans </button>
+<button onclick="handler()">click me to get ans </button>
 <body>
     
     <script type="module">
@@ -15,6 +15,8 @@
         import qs from 'https://cdn.jsdelivr.net/npm/qs@6.12.1/+esm';
         import axios from 'https://cdn.jsdelivr.net/npm/axios@1.7.2/+esm'
         function handler(){
+            console.log('button clicked');
+            
         var data = qs.stringify({
             'code': 'val = int(input("Enter your value: ")) + 5\nprint(val)',
             'language': 'py',
