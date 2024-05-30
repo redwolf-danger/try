@@ -22,7 +22,7 @@ function handler(){
         url: 'https://api.codex.jaagrav.in',
         headers: {
             'Content-Type': 'application/x-www-form-urlencoded',
-            'Access-Control-Allow-Origin': '*'
+            'Access-Control-Allow-Origin': "null"
         },
         data : data
     };
