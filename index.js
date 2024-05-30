@@ -21,7 +21,8 @@ function handler(){
         method: 'post',
         url: 'https://api.codex.jaagrav.in',
         headers: {
-            'Content-Type': 'application/x-www-form-urlencoded'
+            'Content-Type': 'application/x-www-form-urlencoded',
+            'Access-Control-Allow-Origin': '*'
         },
         data : data
     };
